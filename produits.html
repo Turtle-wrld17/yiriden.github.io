@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buculma - Agriculture locale et durable</title>
+     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Debut de la secxtion entete -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="header-logo">
+                <img src="./images/yiri-rm-removebg-preview.png" alt="Logo Buculma">
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="produits.html" class="active">Nos produits</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="contact.html" class="btn btn-primary">Prendre Contact</a>
+            </div>
+
+            <button class="mobile-nav-toggle" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="product-hero-section">
+            <div class="container product-hero-grid">
+
+                <div class="product-hero-image-wrapper">
+                    <div class="background-shape"></div>
+                    <img src="images/a-pannier2-removebg-preview.png" alt="Panier de légumes frais de saison">
+                </div>
+
+                <div class="product-hero-content">
+                    <span class="pre-title">NOS PRODUITS</span>
+                    <h2>Nos récoltes, des plantes et bouquets au rythme des saisons</h2>
+                    <p>
+                        Chez Yiri Den, nous suivons le rythme des saisons pour vous proposer des plantes, fleurs et décorations qui s’épanouissent naturellement. Ici, chaque création est pensée pour respecter le climat et les ressources locales, afin de vous offrir beauté, fraîcheur et harmonie. C’est notre promesse d’authenticité et de qualité.
+                    </p>
+                    <a href="#product-list" class="btn btn-primary">Voir les produits</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="products-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="pre-title">NOS RÉCOLTES</span>
+                    <h2>Des produits frais, au rythme des saisons</h2>
+                    <p>Découvrez notre sélection de légumes cultivés avec soin. La disponibilité peut varier pour garantir une fraîcheur et une saveur optimales.</p>
+                </div>
+
+                <div class="product-filters">
+                    <button class="btn-filter active" data-categorie="tous">Tous</button>
+                    <button class="btn-filter" data-categorie="a">Plante</button>
+                    <button class="btn-filter" data-categorie="b">Plante intérieur</button>
+                    <button class="btn-filter" data-categorie="c">Pot en plastique</button>
+                    <button class="btn-filter" data-categorie="d">Pot</button>
+                </div>
+
+                <div class="produits-grid">
+
+                    <div class="produit-carte" data-categorie="a">
+                        <div class="card-image">
+                            <img src="images/oliv1.png" alt="olivier">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Plante</span>
+                            <h3>Olivier</h3>
+                            <p class="card-description">---</p> 
+                            <a href="#" class="card-cta">Voir le détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="a">
+                        <div class="card-image">
+                            <img src="images/palmier.jpg" alt="palmier">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Plante</span>
+                            <h3>Palmier champagne</h3>
+                             <p class="card-description">---</p> 
+                            <a href="#" class="card-cta">Voir le détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="b">
+                        <div class="card-image">
+                            <img src="images/Photoroom_20250731_165635.jpg" alt="eucalyptus">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Plante intérieure</span>
+                            <h3>Aglaonème</h3>
+                            <p class="card-description">---</p>
+                            <a href="#" class="card-cta">Voir  détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="c">
+                        <div class="card-image">
+                            <img src="images/Photoroom_20250731_180049.jpg" alt="Goyavier">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Pot plastique</span>
+                            <h3>Pot plastique</h3>
+                            <!-- <p class="card-description">Pour relever vos plats avec une saveur piquante et parfumée.</p> -->
+                            <a href="#" class="card-cta">Voir le détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="a">
+                        <div class="card-image">
+                            <img src="images/bambou-vf.png" alt="bambou">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Plante</span>
+                            <h3>Bambou</h3>
+                            <p class="card-description">---</p> 
+                            <a href="#" class="card-cta">Voir  détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="b">
+                        <div class="card-image">
+                            <img src="images/Photoroom_20250731_170530.jpg" alt="jatropha">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Plante intérieure</span>
+                            <h3>Sansevieria cylindrica</h3>
+                            <p class="card-description">---</p> 
+                            <a href="#" class="card-cta">Voir le détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="d">
+                        <div class="card-image">
+                            <img src="images/vase1.jpg" alt="Racines de manioc">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Pot</span>
+                            <h3>Pot & support</h3>
+                            <p class="card-description">---</p>
+                            <a href="#" class="card-cta">Voir  détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="c">
+                        <div class="card-image">
+                            <img src="images/Photoroom_20250731_172314.jpg" alt="hysope">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Pot  plastique</span>
+                            <h3>Pot en plastique</h3>
+                            <p>---</p> 
+                            <a href="#" class="card-cta">Voir  détail</a>
+                        </div>
+                    </div>
+
+                    <div class="produit-carte" data-categorie="d">
+                        <div class="card-image">
+                            <img src="images/pot.jpg" alt="Concombres verts et frais">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">Pot</span>
+                            <h3>Pot en ciment</h3>
+                            <p class="card-description">---</p>
+                            <a href="#" class="card-cta">Voir  détail</a>
+                        </div>
+                        
+</div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-main">
+            <div class="container footer-grid">
+
+                <div class="footer-col footer-about">
+                    <img src="./images/yiri-rm-removebg-preview.png" alt="Logo Buculma" class="footer-logo">
+                    <p>La promesse d’un art floral authentique, pour des plantes, bouquets et décorations harmonieux, frais et pleins de vie.</p>
+                    <div class="social-icons">
+                       <a href="https://web.facebook.com/Yiriden.bf" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                       <a href="https://wa.me/22674385050" aria-label="WhatsApp"> <i class="fab fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À Propos</a></li>
+                        <li><a href="produits.html">Nos Produits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contactez-nous</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Ouagadougou, Burkina Faso</p>
+                    <!-- <p><i class="fas fa-envelope"></i> contact@buculma-bf.com</p> -->
+                    <p><i class="fas fa-phone"></i> +226 74 38 50 50</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-sub">
+            <div class="container">
+                <p>&copy; 2025 Yiri dén. Tous droits réservés.</p>
+                <p><a href="#">Mentions Légales</a> | <a href="#">Politique de Confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
